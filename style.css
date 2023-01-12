@@ -4,7 +4,7 @@
 }
 body{
     overflow: hidden;
-    animation: shakebody linear 6s infinite;
+  
 }
 .sky{
     height: 100vh;
@@ -91,15 +91,4 @@ body{
         transform: translateY(-5px);
     }
 }
-@keyframes shakebody
-{
-    0%{
-        transform: translateY(-50px);
-    }
-    50%{
-        transform: translateY(50px);
-    }
-    100%{
-        transform: translateY(-50px);
-    }
-}
+
