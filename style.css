@@ -1,1 +1,11 @@
-
+*{
+  margin:0;
+  padding:0;
+  
+}
+.sky{
+  height:100%;
+  width:100%;
+  position:absolute;
+ background-image:url("background.jpg");
+}
